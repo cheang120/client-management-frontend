@@ -1,0 +1,75 @@
+.add-product {
+    margin-bottom: 5rem;
+    .card {
+      width: 100%;
+      max-width: 500px;
+      padding: 1rem;
+    }
+    form {
+      label {
+        display: block;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: var(--color-dark);
+      }
+      input[type="text"],
+      input[type="number"],
+      input[type="file"],
+      input[type="email"],
+      select,
+      input[type="password"] {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 300;
+        padding: 1rem;
+        margin: 1rem auto;
+        width: 100%;
+        border: 1px solid #777;
+        border-radius: 3px;
+        outline: none;
+      }
+      input[type="date"] {
+        background-color: #fefefe;
+        padding: 15px;
+        font-family: "Roboto Mono",monospace;
+        color: #000000;
+        font-size: 18px;
+        border: 1px solid #777;
+        outline: none;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 1rem;
+      }
+      ::-webkit-calendar-picker-indicator{
+        background-color: #ffffff;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+    }
+  }
+  
+  .group {
+    // border: 1px solid var(--dark-blue);
+    padding: 5px;
+  }
+  
+  .image-preview {
+    width: 50%;
+    height: 50%;
+    // max-height: 280px;
+    // background: var(--dark-blue);
+    padding: 1rem;
+    border-radius: 3px;
+    overflow: hidden;
+    // display: none;
+    transition: all 0.3s;
+  }
+  
+  .image-preview img {
+    width: 100%;
+  }
+  
+  .image-show {
+    display: block;
+  }
