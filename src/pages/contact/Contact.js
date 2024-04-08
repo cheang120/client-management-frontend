@@ -60,29 +60,32 @@ const Contact = () => {
         </form>
 
         <div className="details">
-          <Card cardClass={"card2"}>
-            <h3>Our Contact Information</h3>
-            <p>Fill the form or contact us via other channels listed below</p>
 
-            <div className="icons">
-              <span>
-                <FaPhoneAlt />
-                <p>+853 66369509</p>
-              </span>
-              <span>
-                <FaEnvelope />
-                <p>carreyusermanagement@outlook.com</p>
-              </span>
-              <span>
-                <GoLocation />
-                <p>China, Macau</p>
-              </span>
-              {/* <span>
-                <FaTwitter />
-                <p>@ZinoTrust</p>
-              </span> */}
-            </div>
-          </Card>
+            <Card cardClass={"card2"}>
+            <h3>Our Contact Information</h3>
+              <p>Fill the form or contact us via other channels listed below</p>
+
+              <div className="icons">
+                <span>
+                  <FaPhoneAlt />
+                  <p>+853 66369509</p>
+                </span>
+                <span>
+                  <FaEnvelope />
+                  <p>carreyusermanagement@outlook.com</p>
+                </span>
+                <span>
+                  <GoLocation />
+                  <p>China, Macau</p>
+                </span>
+                {/* <span>
+                  <FaTwitter />
+                  <p>@ZinoTrust</p>
+                </span> */}
+              </div>
+            </Card>
+
+
         </div>
       </div>
     </div>
