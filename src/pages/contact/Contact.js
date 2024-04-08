@@ -47,6 +47,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 required
+                name="message"
             />
 
             <input
