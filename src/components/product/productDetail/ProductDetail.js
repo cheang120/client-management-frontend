@@ -69,6 +69,11 @@ const ProductDetail = () => {
       onAfterPrint:()=>alert("Data saved in PDF")
     })
 
+    let object = {
+      name: 'Copilot'
+    };
+    console.log(object.name); // Copilot
+
   return (
     <div className="product-detail">
 
@@ -77,9 +82,9 @@ const ProductDetail = () => {
 
         <div className="head">
           <div className="headDetail">
-            <p><b>姓名：</b><span>{product.name}</span></p>
-            <p><b>姓別：</b><span>{product.category}</span></p>
-            <p><b>出生日期：</b><span>{product.price}</span></p>
+            <p><b>姓名：</b><span>{product?.name}</span></p>
+            <p><b>姓別：</b><span>{product?.category}</span></p>
+            <p><b>出生日期：</b><span>{product?.price}</span></p>
           </div>
           <div className="img">
             {product?.image ? (
