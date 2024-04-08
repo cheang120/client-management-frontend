@@ -73,7 +73,7 @@ const Contact = () => {
                 </span>
                 <span>
                   <FaEnvelope />
-                  <p>carrey2024@outlook.com</p>
+                  <p>carrey2024@gmail.com</p>
                 </span>
                 <span>
                   <GoLocation />
